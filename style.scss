@@ -2,7 +2,7 @@ $primary: #f72210;
 
 .blog-header {
   background-color: $primary;
-  padding: 0.8rem 1.25rem;
+  padding: 1.2rem 1.25rem;
 
   .brand {
     color: white;
@@ -24,6 +24,13 @@ $primary: #f72210;
   fill: white;
 }
 
+.btn-txt {
+  color: white;
+  padding: 8px 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
 .btn-white {
   background-color: white;
   border-radius: 0;
@@ -35,6 +42,20 @@ $primary: #f72210;
 .btn-white:hover {
   background-color: white !important;
   color: $primary;
+}
+
+.navbar-nav {
+  border-bottom: 1px solid #999;
+  padding-bottom: 12px;
+}
+
+.nav-item {
+  border-left: 1px solid #999;
+}
+
+.nav-item :first-child,
+.nav-item :last-child {
+  border-left: none;
 }
 
 .nav-link {
