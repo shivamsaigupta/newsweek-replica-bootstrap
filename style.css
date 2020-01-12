@@ -202,8 +202,42 @@ body {
   padding: 1.2rem 0 0.5rem 0;
 }
 
+.copyright {
+  color: #888;
+  font-size: 0.8rem;
+}
+
 .st1 {
   fill: #f72210;
+}
+
+.social {
+  color: #333;
+  cursor: pointer;
+}
+
+.social:hover {
+  color: #888;
+}
+
+footer {
+  padding: 0.5rem 1rem 0.5rem 1rem;
+}
+footer .footer-bottom h5 {
+  font-size: 1rem;
+  font-weight: bold;
+  margin-right: 0.5rem;
+}
+footer .footer-bottom a {
+  margin: 0 0.5rem 0 0.5rem;
+  color: #333;
+}
+footer .footer-bottom a:hover {
+  text-decoration: none;
+  color: #000;
+}
+footer .ft-link {
+  flex: 1;
 }
 
 /*# sourceMappingURL=style.css.map */
