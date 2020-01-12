@@ -1,10 +1,35 @@
-header {
+.blog-header {
   background-color: #f72210;
-  text-align: center;
+  padding: 0.8rem 1.25rem;
 }
-header .navbar-brand {
+.blog-header .brand {
   color: white;
+}
+.blog-header .brand h1 {
+  font-size: 5rem;
+  font-weight: 800;
+}
+.blog-header .text-sm {
+  color: white;
+  font-size: 0.85rem;
   font-weight: bold;
+}
+
+.st0 {
+  fill: white;
+}
+
+.btn-white {
+  background-color: white;
+  border-radius: 0;
+  color: #f72210;
+  font-weight: bold;
+  padding: 4px 22px 4px 22px;
+}
+
+.btn-white:hover {
+  background-color: white !important;
+  color: #f72210;
 }
 
 /*# sourceMappingURL=style.css.map */
