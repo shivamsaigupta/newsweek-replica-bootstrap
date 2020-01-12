@@ -36,3 +36,13 @@ $primary: #f72210;
   background-color: white !important;
   color: $primary;
 }
+
+.nav-link {
+  color: black;
+  font-size: 21px;
+  font-weight: bold;
+}
+
+.nav-link:hover {
+  color: $primary;
+}

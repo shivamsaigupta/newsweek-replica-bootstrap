@@ -32,4 +32,14 @@
   color: #f72210;
 }
 
+.nav-link {
+  color: black;
+  font-size: 21px;
+  font-weight: bold;
+}
+
+.nav-link:hover {
+  color: #f72210;
+}
+
 /*# sourceMappingURL=style.css.map */
