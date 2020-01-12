@@ -1,5 +1,13 @@
 $primary: #f72210;
 
+body {
+  background-color: #f4f5f6;
+}
+
+.container {
+  background-color: white;
+}
+
 .blog-header {
   background-color: $primary;
   padding: 1.2rem 1.25rem;
