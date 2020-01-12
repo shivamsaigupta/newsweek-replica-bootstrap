@@ -44,12 +44,24 @@ body {
   padding: 1.2rem 0 0.5rem 0;
 }
 
+.title-red {
+  color: #f72210;
+  font-weight: bold;
+  font-size: 1rem;
+  padding: 1.2rem 0 0.5rem 0;
+}
+
 .btn-white {
   background-color: white;
   border-radius: 0;
   color: #f72210;
   font-weight: bold;
   padding: 4px 22px 4px 22px;
+}
+
+.btn-red {
+  background-color: #f72210;
+  color: white;
 }
 
 .btn-white:hover {
@@ -94,10 +106,11 @@ body {
   display: flex;
   padding: 0.5rem 0.5rem 0.5rem 0;
   border-bottom: 1px solid #9f9f9f;
+  margin-right: 4px;
 }
 .opinion-item .avatar {
   flex: 0 1 63px;
-  margin-right: 4px;
+  margin-right: 12px;
 }
 .opinion-item .opinion-content {
   flex: 2;
@@ -117,6 +130,80 @@ body {
   font-weight: bold;
   font-size: 1rem;
   color: #333;
+}
+
+.ln-item {
+  display: flex;
+  padding: 0.5rem 0.5rem 0.5rem 0;
+  border-bottom: 1px solid #9f9f9f;
+  margin-right: 4px;
+}
+.ln-item .avatar {
+  flex: 2;
+  margin-right: 12px;
+}
+.ln-item .ln-content {
+  flex: 3;
+  display: flex;
+  flex-direction: column;
+}
+.ln-item .ln-content .ln-title {
+  font-weight: bold;
+  font-size: 1rem;
+  color: black;
+}
+.ln-item .ln-content .ln-title:hover {
+  color: #f72210;
+  text-decoration: none;
+}
+.ln-item .ln-content .ln-author {
+  font-weight: bold;
+  font-size: 1rem;
+  color: #333;
+}
+
+.travel-section {
+  background-color: #f4f5f6;
+  margin: 0 3px 0 3px;
+}
+.travel-section .row {
+  margin: 0 0px 0 0px;
+}
+.travel-section .col-title {
+  margin-left: 1.5rem;
+}
+.travel-section .card-body {
+  background-color: #f4f5f6;
+}
+.travel-section .card {
+  background-color: #f4f5f6;
+  border: none;
+}
+
+.nl-img {
+  background: url("./images/newsweek-app.png") no-repeat center;
+}
+
+.subscribe-section {
+  padding-top: 2rem;
+  padding-left: 1rem;
+}
+.subscribe-section .left {
+  background-color: #f4f5f6;
+  margin: 0 5px 0 5px;
+  padding: 2rem 1rem 2rem 1rem;
+}
+
+.title-red-left {
+  color: #f72210;
+  font-weight: bold;
+  margin-left: 1rem;
+  font-size: 1rem;
+  padding: 1.2rem 0 0.5rem 0;
+}
+
+.st1 {
+  fill: #f72210;
 }
 
 /*# sourceMappingURL=style.css.map */

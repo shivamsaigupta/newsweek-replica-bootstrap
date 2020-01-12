@@ -51,12 +51,24 @@ body {
   padding: 1.2rem 0 0.5rem 0;
 }
 
+.title-red {
+  color: $primary;
+  font-weight: bold;
+  font-size: 1rem;
+  padding: 1.2rem 0 0.5rem 0;
+}
+
 .btn-white {
   background-color: white;
   border-radius: 0;
   color: $primary;
   font-weight: bold;
   padding: 4px 22px 4px 22px;
+}
+
+.btn-red {
+  background-color: $primary;
+  color: white;
 }
 
 .btn-white:hover {
@@ -101,10 +113,11 @@ body {
   display: flex;
   padding: 0.5rem 0.5rem 0.5rem 0;
   border-bottom: 1px solid $borderColor;
+  margin-right: 4px;
 
   .avatar {
     flex: 0 1 63px;
-    margin-right: 4px;
+    margin-right: 12px;
   }
 
   .opinion-content {
@@ -129,4 +142,88 @@ body {
       color: #333;
     }
   }
+}
+
+.ln-item {
+  display: flex;
+  padding: 0.5rem 0.5rem 0.5rem 0;
+  border-bottom: 1px solid $borderColor;
+  margin-right: 4px;
+
+  .avatar {
+    flex: 2;
+    margin-right: 12px;
+  }
+
+  .ln-content {
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+
+    .ln-title {
+      font-weight: bold;
+      font-size: 1rem;
+      color: black;
+    }
+
+    .ln-title:hover {
+      color: $primary;
+      text-decoration: none;
+    }
+
+    .ln-author {
+      font-weight: bold;
+      font-size: 1rem;
+      color: #333;
+    }
+  }
+}
+
+.travel-section {
+  background-color: #f4f5f6;
+  margin: 0 3px 0 3px;
+
+  .row {
+    margin: 0 0px 0 0px;
+  }
+
+  .col-title {
+    margin-left: 1.5rem;
+  }
+
+  .card-body {
+    background-color: #f4f5f6;
+  }
+
+  .card {
+    background-color: #f4f5f6;
+    border: none;
+  }
+}
+
+.nl-img {
+  background: url("./images/newsweek-app.png") no-repeat center;
+}
+
+.subscribe-section {
+  padding-top: 2rem;
+  padding-left: 1rem;
+
+  .left {
+    background-color: #f4f5f6;
+    margin: 0 5px 0 5px;
+    padding: 2rem 1rem 2rem 1rem;
+  }
+}
+
+.title-red-left {
+  color: $primary;
+  font-weight: bold;
+  margin-left: 1rem;
+  font-size: 1rem;
+  padding: 1.2rem 0 0.5rem 0;
+}
+
+.st1 {
+  fill: $primary;
 }
