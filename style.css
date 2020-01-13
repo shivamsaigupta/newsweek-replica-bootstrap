@@ -8,6 +8,20 @@ body {
   padding-right: 0;
 }
 
+#fixedHeader {
+  background-color: #f72210;
+  display: none;
+}
+
+@media only screen and (max-width: 768px) {
+  header {
+    display: none;
+  }
+
+  #fixedHeader {
+    display: flex;
+  }
+}
 .blog-header {
   background-color: #f72210;
   padding: 1.2rem 1.25rem;
